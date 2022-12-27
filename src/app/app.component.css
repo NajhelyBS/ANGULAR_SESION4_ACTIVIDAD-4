@@ -1,0 +1,11 @@
+body {
+    margin:10px;
+    border: solid gray 3px;
+    background-attachment: fixed;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/050/497/148/large/kevin-gnutzmans-australia-final-low.jpg?1654989452");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36em;
+    
+}

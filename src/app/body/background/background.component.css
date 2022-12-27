@@ -1,0 +1,27 @@
+#background {
+    background-color: #cbbd60bb;
+    height: 20.5em;
+}
+
+p {
+    
+    color:#3d3b25 ;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 75px;
+    -webkit-text-stroke: medium ;
+}
+
+table {
+    margin-left: 75px;
+    margin-top: 17px;
+    width: 87%;
+    background-color: #259692b6;
+}
+
+td {
+    cursor: pointer;
+    color: #6e6d68;
+    font-weight: 900;
+    text-shadow: 2px 1px 2px rgb(255, 255, 255);
+}

@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    background-color: #c1dc5f9d;
+    padding-top: 10px;
+    height: 12em;
+    border: solid rgba(128, 128, 128, 0.541) 1px;
+
+}
+h1 {
+    color:#6e6d68;
+    font-weight: 800;
+    letter-spacing: 2.3px;
+    font-size: 52px;
+    text-shadow: #8acced 0px 2px 9px;
+    
+}
+hr {
+    color:#259692;
+}
