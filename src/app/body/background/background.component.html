@@ -11,35 +11,36 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr >
                         <th scope="row">1</th>
-                        <td >FARUZAN</td>
+                        <td (click)="cambiarUrl1();">FARUZAN</td>
                     </tr>
-                    <tr>
+                    <tr id="row">
                         <th scope="row">2</th>
-                        <td   >XIAO</td>
+                        <td (click)="cambiarUrl2(); " #2 >XIAO</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td>CHONGYUN</td>
+                        <td (click)="cambiarUrl3()" #3 >CHONGYUN</td>
                     </tr>
                     <tr>
                         <th scope="row">4</th>
-                        <td>BARBARA</td>
+                        <td (click)="cambiarUrl4()" #4 >BARBARA</td>
                     </tr>
                     <tr>
                         <th scope="row">5</th>
-                        <td>NILOU</td>
+                        <td (click)="cambiarUrl5()" #5 >NILOU</td>
                     </tr>
                    
                 </tbody>
             </table>
+            
 
 
         </div>
        
         <div class="col-md-3">
-            <app-container1></app-container1></div>
+            <app-container1 [urlImage]="this.urlImage"></app-container1></div>
 
         
 
